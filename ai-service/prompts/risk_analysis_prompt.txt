@@ -1,0 +1,18 @@
+Generate JSON with this exact structure:
+{
+  "title": "string",
+  "summary": "string",
+  "overview": "string",
+  "key_items": ["string", "string", "string"],
+  "recommendations": [
+    {"action_type": "string", "description": "string", "priority": "high|medium|low"}
+  ]
+}
+
+Use this context:
+{context}
+
+Input record:
+{record}
+
+Return only JSON.

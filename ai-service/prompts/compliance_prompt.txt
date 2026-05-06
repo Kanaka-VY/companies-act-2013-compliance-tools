@@ -1,0 +1,16 @@
+Generate JSON with exactly this shape:
+{
+  "recommendations": [
+    {"action_type": "review|implement|monitor|automate", "description": "string", "priority": "high|medium|low"},
+    {"action_type": "review|implement|monitor|automate", "description": "string", "priority": "high|medium|low"},
+    {"action_type": "review|implement|monitor|automate", "description": "string", "priority": "high|medium|low"}
+  ]
+}
+
+Use this context:
+{context}
+
+Input record:
+{record}
+
+Return only JSON.

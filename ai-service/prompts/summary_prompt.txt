@@ -1,0 +1,11 @@
+Generate JSON with keys:
+- description (string)
+- risk_level (low|medium|high)
+
+Use this context:
+{context}
+
+Input record:
+{record}
+
+Return only JSON.
